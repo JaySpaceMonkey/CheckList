@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CheckList</string>
+    <string name="fill">Fill form</string>
+    <string name="here_goes_the_question_one_to_check">Here goes the question one to check</string>
+    <string name="enter_type">Enter type</string>
+    <string name="enter_task_title">Enter task title</string>
+    <string name="name">Name</string>
+    <string name="task_type">task type</string>
+
+    <string-array name="radio_list">
+        <item>answer1</item>
+        <item>answer2</item>
+        <item>answer3</item>
+        <item>answer4</item>
+
+    </string-array>
+    <string-array name="Mutli_list">
+        <item>box1</item>
+        <item>box2</item>
+        <item>box3</item>
+        <item>box4</item>
+    </string-array>
+
+
+</resources>
