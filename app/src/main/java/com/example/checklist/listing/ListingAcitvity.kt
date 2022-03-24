@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         val layoutManager:RecyclerView.LayoutManager=LinearLayoutManager(this@MainActivity)
 
         binding.recyclerView.adapter=adapter
+        binding.recyclerView.layoutManager=layoutManager
          binding.floatButton.setOnClickListener{
              //val intent=Intent(this,layoutInflater.inflate(R.layout.taskcard,parent,false))
                val intentAdd=Intent(this,AddActivity::class.java)

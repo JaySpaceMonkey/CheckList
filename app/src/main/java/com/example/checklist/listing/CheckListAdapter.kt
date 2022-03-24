@@ -20,7 +20,10 @@ class CheckListAdapter(
         )
     }
 
-    override fun onBindViewHolder(holder: CheckListViewHolder, position: Int) {
+    override fun onBindViewHolder(
+        holder: CheckListViewHolder,
+        position: Int
+    ) {
         //TODO("Not yet implemented")
         holder.itemView.apply {
            holder.binding.etTaskTitle.setText(checkList[position].taskTitle)
